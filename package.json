@@ -1,0 +1,43 @@
+{
+  "name": "hellenic-post-track",
+  "version": "0.1.0",
+  "description": "Track an item from Hellenic Post (ELTA)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node test/index.js",
+    "cover": "istanbul cover test/index.js",
+    "ci": "npm run lint && npm run cover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greecejs/hellenic-post-track.git"
+  },
+  "keywords": [
+    "elta",
+    "post",
+    "mail",
+    "tracking",
+    "track",
+    "greece"
+  ],
+  "author": {
+    "name": "Thanos Lefteris",
+    "email": "alefteris@gmail.com",
+    "url": "http://thanoslefteris.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greecejs/hellenic-post-track/issues"
+  },
+  "homepage": "https://github.com/greecejs/hellenic-post-track#readme",
+  "dependencies": {
+    "request-promise": "2.0.0"
+  },
+  "devDependencies": {
+    "blue-tape": "^0.2.0",
+    "eslint": "^2.0.0-rc.0",
+    "istanbul": "^0.4.2",
+    "nock": "^7.0.2"
+  }
+}
